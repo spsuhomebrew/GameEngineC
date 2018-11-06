@@ -23,12 +23,6 @@ void render_game(WINDOW* window);
 WINDOW * init_game();
 void cleanup();
 
-struct PONG_OBJECT {
-    int x;
-    int y;
-    int player_num; // player one, left, 0.  player two, right, 1
-};
-
 int main()
 {
     WINDOW *game_window = init_game();
